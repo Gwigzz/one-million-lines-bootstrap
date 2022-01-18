@@ -1,18 +1,8 @@
 # One-Million-Lines-Bootstrap
 
-**Utiliser Bootstrap pour cet intégration et la gestion du responsive**
+**Bootstrap he's using for this integration**
 
-Police de caractère : `Arvo`
-
-Couleurs :
-
-```
-Blanc : #ffffff
-Noir : #000000
-Orange : #ff6347
-Gris : #797878
-Gris clair : #d9d7d7
-```
+Police : `Arvo`
 
 ## Preview
 
