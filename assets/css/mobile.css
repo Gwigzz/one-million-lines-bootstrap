@@ -1,8 +1,100 @@
 /*
 * FOR MOBILE
 */
+/* Import police */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+:root {
+    --my-orange: #FF6347;
+    --my-orange-dark: #C7381F;
+    --my-gray: #797878;
+    --my-light-gray: #d9d7d7;
+}
+
+body {
+    font-family: 'Arvo', serif !important;
+    font-size: 16px;
+}
 
 /* header */
-header nav ul {
-    display: none;
+
+.box-humberger {
+    border: 1px solid var(--my-gray) !important;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background-color: var(--my-orange);
+    border: none;
+}
+
+.btn-primary:focus {
+    background-color: var(--my-orange-dark);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--my-orange-dark);
+    border: none;
+}
+
+.btn-primary:active {
+    background-color: var(--my-orange-dark);
+    border: none;
+}
+
+.bg-header-section {
+    background: center no-repeat url('../img/hero-image.jpg');
+    background-size: cover;
+}
+
+/* main */
+.text-orange {
+    color: var(--my-orange);
+}
+
+.separator {
+    border: 1px solid var(--my-orange);
+    width: 130px;
+    margin: 1.2rem auto;
+}
+
+/* cards */
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: var(--bs-gray-800);
+    border-radius: 50%;
+    margin: 55px auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img {
+    filter: invert(100%);
+    width: 62px;
+}
+
+.btn-light {
+    color: var(--my-orange);
+    background-color: var(--bs-white);
+    border: 1px solid var(--my-light-gray);
+}
+
+/* footer */
+.footer {
+    background-color: var(--my-orange);
+    padding: 140px 0 40px 0 !important;
+}
+
+.footer img{
+    width: 60%;
+}
+
+/* COMPUTEUR */
+@media screen and (min-width: 1200px) {
+    .footer img{
+        width: auto;
+    }
 }
