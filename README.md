@@ -1,6 +1,6 @@
 # One-Million-Lines-Bootstrap
 
-**Bootstrap he's using for this integration**
+**Bootstrap is using for this integration**
 
 Police : `Arvo`
 
