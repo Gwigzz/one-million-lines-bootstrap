@@ -1,0 +1,10 @@
+/*
+* FOR DESKTOP 
+*/
+
+@media screen and (min-width: 1200px) {
+    /* header */
+    header nav ul {
+        display: block;
+    }
+}
